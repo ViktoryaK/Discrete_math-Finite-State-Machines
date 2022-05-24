@@ -1,0 +1,24 @@
+digraph G {
+    graph [rankdir=LR labelfontcolor=red fontname="monospace" nodesep=0.4 size="7.75,10.25"]
+    node [fontname="monospace" fontsize=11]
+    edge [fontname="monospace" color="grey" fontsize=11]
+
+    -1 [label="I" shape="circle"]
+    0 [label="D" shape="doublecircle"]
+    1 [label="E" shape="doublecircle"]
+    2 [label="M" shape="circle"]
+    3 [label="L" shape="doublecircle"]
+    4 [label="R" shape="doublecircle"]
+    5 [label="Up" shape="doublecircle"]
+    6 [label="Down" shape="doublecircle"]
+
+
+    -1 -> 0 [label="E <= 0"]
+    -1 -> 1 [label="E <= b"]
+    -1 -> 2 [label="E >= a"]
+
+    2 -> 3 [label=""]
+    2 -> 4 [label=""]
+    2 -> 5 [label=""]
+    2 -> 6 [label=""]
+}

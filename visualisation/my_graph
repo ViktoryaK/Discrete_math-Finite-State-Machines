@@ -1,0 +1,9 @@
+// A simple Graph
+digraph {
+	A [label=Cloudy]
+	B [label=Sunny]
+	C [label=Rainy]
+	A -> B
+	A -> C
+	B -> C [constraint=false]
+}
