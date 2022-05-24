@@ -1,1 +1,1 @@
-# Disrete_math-Finite-State-Machines
+# Discrete_math-Finite-State-Machines
